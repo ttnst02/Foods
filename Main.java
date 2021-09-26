@@ -26,7 +26,7 @@ public class Main
                     case 1: System.out.print("Add: "); inputstring = sb.readLine(); Database.add(inputstring); break;
                     case 2: System.out.print("Scan: "); inputstring = sb.readLine(); Database.scan(inputstring); break;
                     case 3: System.out.print("Remove id: "); inputint = Integer.parseInt(sb.readLine()); Database.remove(inputint); break;
-                    case 4: Database.printall();
+                    case 4: Database.printall(); break;
                 }
             }
             catch(Exception e)
