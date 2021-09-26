@@ -14,6 +14,7 @@ public class Database {
         foods.add(add);
         ID.add(id);
         DATE.add(date+"");
+        System.out.println("Succes");
         return;
     }
     void scan(String scan)
