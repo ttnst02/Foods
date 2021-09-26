@@ -7,6 +7,14 @@ public class Database {
     ArrayList<String> DATE = new ArrayList<String>();
     void add(String add)
     {
+        for(int i=0; i< foods.size() ; i++)
+        {
+            if(add.equals(foods.get(i)));
+            {
+                System.out.println("This food exist");
+                return;
+            }
+        }
         int id = 1;
         for(String i : foods)
             id++;
