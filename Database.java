@@ -14,6 +14,7 @@ public class Database {
                 System.out.println("This food exist");
                 return;
             }
+        }
         int id = 1;
         for(String i : foods)
             id++;
@@ -23,7 +24,6 @@ public class Database {
         DATE.add(date+"");
         System.out.println("Succes");
         return;
-        }
     }
     void scan(String scan)
     {
