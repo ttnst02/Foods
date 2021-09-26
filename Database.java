@@ -41,6 +41,7 @@ public class Database {
         ID.remove(ID.size()-1);
         foods.remove(foods.size()-1);
         DATE.remove(DATE.size()-1);
+        System.out.println("Succes");
     }
     void printall()
     {
